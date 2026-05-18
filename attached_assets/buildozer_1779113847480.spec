@@ -25,7 +25,7 @@ android.ndk_api = 21
 android.arch = arm64-v8a
 
 # Permissions
-android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
+android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,FOREGROUND_SERVICE,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,REQUEST_INSTALL_PACKAGES
 
 # Orientation — portrait only (matches on_start lock in main.py)
 orientation = portrait
