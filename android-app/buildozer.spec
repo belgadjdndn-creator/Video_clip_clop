@@ -20,9 +20,8 @@ requirements = python3,kivy,requests,certifi,urllib3,android,yt_dlp,websockets,m
 android.api = 33
 android.minapi = 21
 android.ndk = 25b
-android.sdk = 33
 android.ndk_api = 21
-android.arch = arm64-v8a
+android.archs = arm64-v8a
 
 # Permissions
 android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,FOREGROUND_SERVICE,RECEIVE_BOOT_COMPLETED,WAKE_LOCK,REQUEST_INSTALL_PACKAGES
